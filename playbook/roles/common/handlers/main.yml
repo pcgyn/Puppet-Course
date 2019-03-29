@@ -1,0 +1,9 @@
+---
+
+#### Pos-tarefas ####
+- name: Restart Nginx
+  systemd: state=restarted enabled=yes daemon_reload=yes name=ngixn
+
+
+
+...

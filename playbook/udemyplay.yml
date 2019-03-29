@@ -1,0 +1,4 @@
+- name: Default Playbook - Starting Deplay
+  hosts: local
+  roles:
+    - common
